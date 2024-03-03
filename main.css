@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./images/wallpaper.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 300px;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: #fff;
+    height: 320px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.3);
+}
+.container form label{
+    font-family: "Madimi One", sans-serif;
+}
+input[type="number"]{
+    width: 97%;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px;
+}
+#resultado{
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    display: none;
+}
+h4.error{
+    margin-top: 10px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    display: none;
+}
